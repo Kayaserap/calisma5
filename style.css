@@ -1,0 +1,115 @@
+
+*{
+margin: 0;
+padding: 0;
+
+    box-sizing: border-box;
+}
+body{
+overflow: scroll;
+    
+    font-family:Figtree ;
+ 
+}
+
+.container{
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+
+}
+
+/* 
+- Yellow: hsl(47, 88%, 63%)
+
+- White: hsl(0, 0%, 100%)
+
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%)
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 500, 800
+*/
+
+.content{
+
+
+border: 1px solid black;
+width: 375px;
+height: 520px;
+padding: 25px;
+border-radius: 18px;
+background-color: hsl(0, 0%, 100%);
+display: flex;
+flex-direction: column;
+gap: 15px;
+box-shadow: 10px 5px ;
+
+}
+
+.content img{
+   
+    border-radius: 25px;
+}
+.learning{
+
+    text-align: start;
+background-color: hsl(47, 88%, 63%);
+border: 1px solid wheat;
+border-radius: 5px;
+width: 70px;
+padding: 7px;
+margin: 5px;
+
+
+
+}
+.paragraf p{
+    font-size: 23px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800 ;
+}
+.learning p{
+  
+    text-align: center;
+font-size: 14px;
+color: hsl(0, 0%, 7%);
+font-family:Figtree ;
+font-weight: 800;
+}
+.metin p{
+    font-weight: 600 ;
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+.date p{ 
+    font-weight: 600;
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+
+}
+.avatar{
+gap: 10px;
+    display: flex;
+    justify-content:start;
+    
+}
+.avatar img{
+
+    width: 40px;
+    height: 40px;
+}
+.avatar p{
+    font-size: 16px;
+    color: hsl(0, 0%, 7%);
+padding-top: 5px;
+margin-top: 5px;
+font-family:Figtree ;
+font-weight: 800;
+}
